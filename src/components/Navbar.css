@@ -1,7 +1,7 @@
 /*MAIN NAVBAR*/
 
 .nav-logo {
-  width: 100px;
+  width: 95px;
   object-fit: contain;
   transition: 0.5s ease-in-out;
   cursor: pointer;
@@ -9,7 +9,7 @@
 
 .nav-container {
   background-color: var(--lagomar-color);
-  height: 60px;
+  height: 64px;
   min-width: 100%;
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 80px 0 64px;
+  margin: 0 70px;
 }
 
 .brand-pages-body {
