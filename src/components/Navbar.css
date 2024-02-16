@@ -1,0 +1,130 @@
+/*MAIN NAVBAR*/
+
+.nav-logo {
+  width: 100px;
+  object-fit: contain;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-container {
+  background-color: var(--lagomar-color);
+  height: 60px;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.183);
+  z-index: 9999;
+}
+
+/*Pages*/
+.pages {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5rem;
+  align-items: baseline;
+}
+
+.pages p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.7rem 0.5rem;
+  cursor: pointer;
+  color: #666666;
+  transition: 0.3s ease-in-out;
+}
+
+.pages button{
+  border: none;
+  background-color: var(--hidrotermica-color);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.pages p:hover{
+    color: var(--hidrotermica-color);
+}
+
+.navbar-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 80px 0 64px;
+}
+
+.brand-pages-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Burger Menu*/
+
+.burger-menu {
+  position: relative;
+}
+
+.burger-menu i {
+  display: none;
+  font-size: 2rem;
+  z-index: 9000;
+  color: white;
+  margin-right: 15px;
+}
+
+/*OFF CANVAS MENU*/
+
+.off-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.off-menu-body {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.link-off-canvas {
+  padding: 0;
+  text-decoration: none;
+  padding: 8px 8px;
+}
+
+@media (max-width: 992px) {
+  .brand-pages-body {
+    margin: 0 15px;
+  }
+
+  .user-body {
+    display: none;
+  }
+
+  .navbar-body {
+    margin: 0;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .burger-menu i {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+}
