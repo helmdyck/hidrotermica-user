@@ -1,0 +1,29 @@
+
+/*Hero de la Home*/
+
+.hero-container{
+    height: 95vh;
+    position: relative;
+    background-image: url("../assets/ductos-unsplash.jpg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-filter{
+    background-color: rgba(0, 0, 0, 0.475);
+    position: absolute;
+    height: 95vh;
+    width: 100%;
+}
+
+.hero-content{
+    position: absolute;
+    color: white;
+    margin-left: 70px;
+}
+
+.hero-content h1 {
+    font-size: 74px;
+    line-height: 1.2;
+}

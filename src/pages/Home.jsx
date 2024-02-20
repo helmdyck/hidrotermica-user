@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import HeroHome from "../components/HeroHome";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <HeroHome />
+    </>
+  );
 }
 
-export default Home
+export default Home;
